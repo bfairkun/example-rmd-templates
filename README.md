@@ -10,6 +10,7 @@ The repository contains several basic examples:
 - **My Template (HTML edits)**: uses a custom HTML template to add a customisable footer to the document.
 - **My Template (LaTeX edits)**: uses a custom LaTeX template which adds extra fields to the header.
 - **My Template (Custom Format)**: this uses a custom R Markdown format to use extra files without a copy having to be made to the directory (see [Chapter 18](https://bookdown.org/yihui/rmarkdown/new-formats.html))
+- **My Template (Analysis)**: My super basic template .
 
 These templates are purposely very basic, being designed to demonstrate how custom styles can easily be created. You may wish to fork the repository to customise the designs further.
 
@@ -19,7 +20,7 @@ If you want to trial these templates within R Markdown, you can install the temp
 
 ```
 # install.packages("devtools")
-devtools::install_github("mikey-harper/example-rmd-templates")
+devtools::install_github("bfairkun/example-rmd-templates")
 ```
 
 This will install the package `MyTemplates`. Once installed, they will be available within the R Markdown templates as shown below:

@@ -1,2 +1,3 @@
 name: "06: analysis template"
-description: "simple template for analysis with tidyverse."
+description: "simple Rmarkdown template for analysis with tidyverse."
+create_dir: false
